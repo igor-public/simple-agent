@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 import asyncio
 import os
 
-load_dotenv()
+load_dotenv("local.env")
 
 model = ChatOpenAI(
     model="gpt-4o-mini",
